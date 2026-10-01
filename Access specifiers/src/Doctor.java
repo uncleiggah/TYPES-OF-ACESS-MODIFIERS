@@ -8,4 +8,8 @@ public class Doctor {
         System.out.println("Sickness: " + patient.getSickness());
         System.out.println("Contact: " + patient.getcontact());
     }
+    public void updatedSickness(Patient patient, String newSickness) {
+        patient.setSickness(newSickness);
+        System.out.println("Sickness updated successfully.");
+    }
 }
