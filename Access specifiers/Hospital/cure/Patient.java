@@ -12,4 +12,23 @@ public class Patient {
         this.sickness = sickness;
         this.contact = contact;
     }
+
+    public static String getName() {
+        return Name;
+    }
+
+    public static int getAge() {
+        return Age;
+    }
+
+    public static String getSickness() {
+        return sickness;
+    }
+
+    public static String getcontact() {
+        return contact;
+    }
+    public void setSickness(String sickness) {
+        this.sickness = sickness;
+    }
 }
