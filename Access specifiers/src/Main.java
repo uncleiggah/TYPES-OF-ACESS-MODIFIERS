@@ -5,5 +5,11 @@ public class Main {
         Doctor doctor= new Doctor();
         Receptionist receptionist = new Receptionist();
         Administration administration = new Administration();
+        System.out.println("\n PATIENT MANAGEMENT SYSTEM");
+        doctor.viewPatient(patient);
+        System.out.println("\n Receptionist");
+        receptionist.viewsBasicInfor(patient);
+        System.out.println("\n ADMINISTRATION");
+        administration.FinancialInformation();
     }
 }
